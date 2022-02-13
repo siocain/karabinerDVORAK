@@ -1,0 +1,125 @@
+{
+  "title": "DVORAK F1 to select-all, F5 to new, F6 to open, F7 to print, F8 to save, F9 to save-as",
+  "rules": [
+    {
+      "description": "F1 to select-all",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "f1"
+          },
+          "to": [
+            {
+              "key_code": "a",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "F5 to new,",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "f5"
+          },
+          "to": [
+            {
+              "key_code": "l",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "F6 to open",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "f6"
+          },
+          "to": [
+            {
+              "key_code": "s",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "F7 to print",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f7"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "r",
+              "modifiers": [
+                "left_gui",
+                "right_gui"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "F8 to save",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f8"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "semicolon",
+              "modifiers": [
+                "left_gui",
+                "right_gui"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "F9 to save-as",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f9"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "semicolon",
+              "modifiers": [
+                "left_shift",
+                "left_gui"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
