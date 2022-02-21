@@ -1,0 +1,26 @@
+{
+  "title": "DVORAK F5 to paste",
+  "rules": 
+    {
+      "description": "F5 to paste,",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "f5"
+          },
+          "to": [
+            {
+              "key_code": "k",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
+          "type": "basic"
+          ]
+        }
+      ]
+    }
+  ]
+}
+
