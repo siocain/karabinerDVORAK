@@ -1,12 +1,12 @@
 {
-  "title": "DVORAK F5 to paste",
+  "title": "DVORAK F4 to paste",
   "rules": 
     {
-      "description": "F5 to paste,",
+      "description": "F4 to paste,",
       "manipulators": [
         {
           "from": {
-            "key_code": "f5"
+            "key_code": "f4"
           },
           "to": [
             {
